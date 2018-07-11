@@ -1,6 +1,6 @@
 <?php
 $errors = '';
-$myemail = 'support@nikkem.com';//<-----Put Your email address here.
+$myemail = 'support@nikkem.com';
 
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
