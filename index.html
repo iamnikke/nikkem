@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nikke Marttila</title>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="src/styles.css">
+	<!-- MaterializeCSS -->
+	<link type="text/css" rel="stylesheet" href="src/materialize.min.css"  media="screen,projection"/>
+	<!-- Optimized for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Montserrat" rel="stylesheet">
+	<!-- SEO -->
+	<meta name="description" content="IT-alan opiskelija ja web-kehityksestä kiinnostunut nuori mies. Löydät minusta kaiken tarpeellisen täältä">
+	<meta name="keywords" content="nikke marttila, nikke, marttila">
+	<meta name="robots" content="index,follow">
+	<meta name="author" content="Nikke Marttila">
+</head>
+<body>
+
+	<div class="row">
+		<div class="col s12 m12 l12 center-align" id="header">
+	      	<h1>Nikke Marttila</h1>
+	    </div>
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+
+		      	<div class="col s12 m12 l12" id="info">
+		      		<h2>Hei!</h2>
+		      		<p>Ja tervetuloa. Olen 18-vuotias tietotekniikkaa opiskeleva nuori mies Turusta. Suurimmat intohimoni ovat yleisesti tekniikka ja matkustelu. Luonteeltani olen hitusen humoristinen ja rento mutta looginen persoona. Suhtaudun tulevaisuuteen optimistisesti ja yritän jatkuvasti kehittää itseäni ihmisenä sekä olemaan produktiivisempi. Urana minua kiinnostaa lähinnä ohjelmointi sekä web-suunnittelu mutta olen avoin kokeilemaan kaikenlaista. Taksinkuljettaja sekä erilaiset logistiikkatyöt kiinnostavat myös keikkaluonteisesti. Tulevaisuuden tavoitteisiin kuuluu eri kulttuureihin tutustuminen reissailemalla sekä mahdollisesti jonkin sortin yrittäjyyttä tai freelance työtä kehittäjänä.</p>
+		      	</div>
+
+	    </div>
+
+	</div>
+
+	<div class="parallax-container">
+		<div class="parallax s12 m12 l12 valign-wrapper">
+		    <img src="src/image.JPG" id="image">
+		</div>
+	</div>
+
+	<div class="container">
+      	
+
+      	<div class="row">
+	      	<div class="col s12 m12 l12" id="skills">
+	      		<h2>Osaaminen</h2>
+	      		<p>Osaan tuottaa responsiiviset kotisivut ja palvelut näyttävällä ulkoasulla, tarvittaessa tietokantaa hyödyntäen. Esimerkiksi 1-sivuiset portfoliot ja pienyritysten kotisivut, lomakkeet ja hieman vaativammatkin projektit onnistuu ripeälläkin aikataululla. Mun suosikki työkalut ja kielet web tuotannossa on JavaScript, PHP, MaterializeCSS, Bootstrap, Wordpress riippuen käyttötarkoituksesta. Pyrin aina tekemään koodin mahdollisimman selkeästi ja lyhyesti jolloin jotakin uudistaessa minun tai jonkun muun on helppo ymmärtää sitä.
+				Ohjelmointipuolelta osaan Lua- sekä Java-kieltä joista Java on suosikkini ja keskitynkin siihen eniten. Suurimman osan ohjelmoinnista ja web-teknologioista olen oppinut itsenäisellä opiskelulla josta olen ylpeä ja halukas oppimaan lisää jatkuvasti.
+				</p>
+	      	</div>
+	    </div>
+
+	    <a class="waves-effect waves-light btn-large deep-orange center-align hoverable modal-trigger" href="#contact" id="contactbtn">Ota yhteyttä</a>
+
+    </div>
+
+    <div class="row" id="footer">
+		<div class="col s6 m4 l2 left-align">
+	      	&copy; Nikke Marttila <br/>
+	      	<i style="color: lightgrey;">support@nikkem.com</i>
+	    </div>
+	    <div class="col s6 m8 l10 left-align">
+	    	<a href="">GitHub</a>
+	    	<a class="modal-trigger" href="#contact">Ota yhteyttä</a>
+	    </div>
+	</div>
+
+
+	<div id="contact" class="modal">
+    	<div class="modal-content">
+      		<h4>Yhteydenotto</h4>
+      		<p>Lähetä viesti tai ihan vaan terveisiä tällä lomakkeella.</p>
+
+      		<div class="row">
+      			<form class="col s12 m12 l12" method="POST" action="emailhandler.php">
+
+      				<div class="row">
+      					<div class="input-field col s6">
+      						<input type="text" name="fname" id="fname" class="validate" />
+      						<label for="fname">Etunimi</label>
+      					</div>
+
+      					<div class="input-field col s6">
+      						<input type="text" name="lname" id="lname" class="validate" />
+      						<label for="lname">Sukunimi</label>
+      					</div>
+      				</div>
+
+				    <div class="row">
+				        <div class="input-field col s12">
+				          	<input id="company" name="company" type="text" class="validate" />
+				          	<label for="company">Yritys</label>
+				          	<span class="helper-text">Vapaaehtoinen</span>
+				        </div>
+				    </div>
+
+      				<div class="row">
+				        <div class="input-field col s12">
+				          	<input id="email" name="email" type="email" class="validate" />
+				          	<label for="email">Sähköpostiosoite</label>
+				          	<span class="helper-text" data-error="Syötä kelvollinen sähköpostiosoite"></span>
+				        </div>
+				    </div>
+
+				    <div class="row">
+				        <div class="input-field col s12">
+				          	<textarea id="textarea" name="message" class="materialize-textarea"></textarea>
+				          	<label for="textarea">Viesti...</label>
+				        </div>
+				    </div>
+
+				    <div class="row">
+
+				    	<div class="col s12 m12 l12 center-align">
+	    					<a class="modal-action modal-close waves-effect waves-green btn-flat">Sulje</a>
+	      					<input type="submit" value="Lähetä" id="submit" class="btn waves-effect waves-light" />
+      					</div>
+				    	
+				    </div>
+
+				    	<div class="col s12 m12 l12 center-align">
+				    		<a class="btn-flat modal-trigger" href="#tos">Käyttöehdot...</a>
+
+
+				    	</div>
+
+      			</form>
+
+				    		<div id="tos" class="modal bottom-sheet">
+							    <div class="modal-content">
+							      	<h4>Käyttöehdot</h4>
+							      	<p>Lähettämäsi viesti kulkeutuu Helsingissä sijaitsevan palvelimen sähköpostiosoitteeseen ”support@nikkem.com” josta viesti uudelleenlähetetään automaattisesti henkilökohtaiseen sähköpostiini. Viesti sisältää syöttämäsi tiedot (Etunimi, sukunimi, yritys, sähköpostiosoite sekä lähettämäsi viesti). Yhteydenotto ei ole toistaiseksi yksityinen (HTTPS) vaan julkinen (HTTP) joka tarkoittaa käytännössä että joku voi mahdollisesti nähdä tai muuttaa yhteydenottolomakkeen kautta lähettämiäsi tietoja.
+									Ethän sisällytä viestissäsi mitään arkaluontoista tietoa ennen kuin olen vastannut sinulle henkilökohtaisesta sähköpostiosoitteestani jonka jälkeen voit vastata siihen.
+									Tämä viestinvälitysprosessi on sitä varten jotta roskapostit eivät täyttäisi minun henkilökohtaista postilaatikkoani jatkuvasti. =)
+									</p>
+							    </div>
+							</div>
+      		</div>
+    	</div>
+
+
+  	</div>
+
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- MaterializeJS -->
+	<script type="text/javascript" src="src/materialize.min.js"></script>
+
+	<script>
+  		$(document).ready(function(){
+    		$('.parallax').parallax();
+		});
+
+		$(document).ready(function(){
+    		$('.modal').modal();
+  		});
+
+  		$('.dropdown-trigger').dropdown();
+      
+	</script>
+
+</body>
+</html>

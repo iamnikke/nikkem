@@ -1,0 +1,43 @@
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+}
+
+a { margin-left: 10px; text-decoration: none; }
+a:hover { color: lightgrey; }
+
+#header {
+	background-color: #101010;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #e3f2fd;
+}
+
+#info {
+	background-color: #fff;
+	font-size: 16px;
+}
+
+#skills {
+	background-color: #fff;
+	font-size: 16px;
+}
+
+#footer {
+	background-color: #101010;
+	font-size: 16px;
+	color: #fff;
+	padding: 40px;
+}
+
+#image { width: 100%; }
+
+#contactbtn {
+	margin-bottom: 10%;
+	color: #fff;
+}
+
+#submit { color: #fff; }
